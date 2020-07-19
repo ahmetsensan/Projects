@@ -1,0 +1,19 @@
+#%% initializer or contructor
+
+class Animal(object):
+    
+    def __init__(self, a,b): #(name,age) = ("dog", 2) = (a,b)
+        self.name = a
+        self.age = b
+        
+    def getAge(self):
+        print(self.age)
+        return self.age
+    
+    def getName(self):
+        print(self.name)
+        return self.name
+    
+a1 = Animal("dog", 5)
+a2 = Animal("cat",3)
+a3 = Animal("bird", 5)
